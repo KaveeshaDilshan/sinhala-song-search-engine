@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  }
+  .topic{
+      font-size: 20px;
+      font-weight: 60;
+      background-image: linear-gradient(to left, #9a3c3c, #d3939c);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      
+    }

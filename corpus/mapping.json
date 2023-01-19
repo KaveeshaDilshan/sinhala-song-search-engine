@@ -1,0 +1,93 @@
+{
+  "settings": {
+    "index": {
+      "analysis": {
+        "analyzer": {
+          "sinhalaAnalyzer": {
+            "type": "custom",
+            "tokenizer": "icu_tokenizer"
+          },
+          "plain": {
+            "filter": [],
+            "tokenizer": "standard"
+          }
+        },
+        "filter": {
+          "edgeNgram": {
+            "type": "edge_ngram",
+            "min_gram": 2,
+            "max_gram": 50,
+            "side": "front"
+          }
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "Title_En": {
+        "type": "text",
+        "analyzer": "plain",
+        "search_analyzer": "standard"
+      },
+      "Title_Si": {
+        "type": "text",
+        "analyzer": "sinhalaAnalyzer",
+        "search_analyzer": "standard"
+      },
+      "Artist_En": {
+        "type": "text",
+        "analyzer": "plain",
+        "search_analyzer": "standard"
+      },
+      "Artist_Si": {
+        "type": "text",
+        "analyzer": "sinhalaAnalyzer",
+        "search_analyzer": "standard"
+      },
+      "Year": {
+        "type": "text"
+      },
+      "Lyricist_En": {
+        "type": "text",
+        "analyzer": "plain",
+        "search_analyzer": "standard"
+      },
+      "Lyricist_Si": {
+        "type": "text",
+        "analyzer": "sinhalaAnalyzer",
+        "search_analyzer": "standard"
+      },
+      "Lyrics": {
+        "type": "text",
+        "analyzer": "sinhalaAnalyzer",
+        "search_analyzer": "standard"
+      },
+      "Metaphors": {
+        "type": "nested",
+        "properties": {
+          "Metaphor": {
+            "type": "text",
+            "analyzer": "sinhalaAnalyzer",
+            "search_analyzer": "standard"
+          },
+          "Meaning": {
+            "type": "text",
+            "analyzer": "sinhalaAnalyzer",
+            "search_analyzer": "standard"
+          },
+          "Source": {
+            "type": "text",
+            "analyzer": "sinhalaAnalyzer",
+            "search_analyzer": "standard"
+          },
+          "Target": {
+            "type": "text",
+            "analyzer": "sinhalaAnalyzer",
+            "search_analyzer": "standard"
+          }
+        }
+      }
+    }
+  }
+}

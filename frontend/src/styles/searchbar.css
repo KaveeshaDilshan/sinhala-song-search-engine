@@ -1,0 +1,63 @@
+.flex-container {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  margin-left: -410px;
+  background-color: #9a3c3c;
+}
+
+.search-bar{
+  width: 300px;
+  height: 45px;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Sinhala'
+}
+
+.metaphor-type{
+  width: 200px;
+  height: 45px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Sinhala'
+}
+
+.metaphor-domain{
+  width: 200px;
+  height: 45px;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Sinhala'
+}
+
+.search-button {
+  background-color: #9a3c3c;
+  height: 45px;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  margin: 8px 0;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: 'Noto Sans Sinhala'
+}
+
+.search-button:active {
+  box-shadow: 6px 6px 6px #3c459a;
+}
