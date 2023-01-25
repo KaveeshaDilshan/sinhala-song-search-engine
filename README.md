@@ -56,6 +56,6 @@ The Sinhala Songs corpus includes roughly 100 songs that have at least one Metap
 
     curl -X POST "localhost:9200/sinhalasongsdata/_bulk?pretty" -H "Content-Type: application/json" --data-binary @index.json --user "elastic:your elasticsearch password"
     ```
-4. Run `npm install` followed by `nodemon index.js` inside Backend directory.
-5. Run `npm install` followed by `npm start` inside frontend directory.
+4. Run `npm install` followed by `nodemon index.js` inside Server directory.
+5. Run `npm install` followed by `npm start` inside Client directory.
 6. Open the browser and goto `localhost:3000`
