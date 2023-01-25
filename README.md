@@ -11,9 +11,9 @@ through the comparison.
 
 ![Search Engine](image1.png)
 
-This repository contains the source code for a Sinhala Song Metaphor Search Engine developed using [ElasticSearch](https://www.elastic.co/) as the search engine and [NodeJS](https://nodejs.org/en/) and [React](https://reactjs.org/) as the web frameworks.
+This repository contains the source code for a Sinhala Song Metaphor Search Engine developed using [ElasticSearch](https://www.elastic.co/) as the search engine and [NodeJS](https://nodejs.org/en/) and [Angular](https://angular.io/) as the web frameworks.
 
-The Sinhala Songs corpus includes roughly 140 songs that have at least one Metaphor. The search engine offers following features for the users.
+The Sinhala Songs corpus includes roughly 100 songs that have at least one Metaphor. The search engine offers following features for the users.
 
 1. Search songs detaila based on given search phrases, user can use both Sinhala and English.
 2. Filter search results by Artist, Lyrics, and Year.
